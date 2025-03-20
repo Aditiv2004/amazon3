@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    border: 2px solid rgba(128, 128, 128, 0.185);
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font:1.2rem "Fira Sans",sans-serif;
+
+
+}
+
+.sponserd {
+    text-wrap: center;
+    margin: 10px;
+    padding: 10px;
+
+
+
+}
+.sponserd h2{
+        color: black;
+}
+/* left box */
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(74,74,74);
+    margin-top: 5px;
+    border-radius: 5px;
+    gap: 50px;
+    
+}
+.leftdiv .box1 img{
+    height: 50px;
+    width: 50px;
+
+}
+.l-div1{
+    display: flex;
+    margin-bottom: 700px;
+    padding: 10px;
+   
+    
+
+}
+.leftdiv{
+    height: 40px;
+    width: 100px;
+    
+}
+/* left img */
+.left img {
+
+    height: 600px;
+    width: auto;
+
+
+}
+
+.sponserd .p-class {
+    color: gray;
+}
+
+.offer_logo{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.offer_logo img {
+    height: 50px;
+    width: 50px;
+}
+
+
+.c-box{
+    gap: 10px;
+
+}
+.c-boxs{
+    border: 7px solid gray;
+    border-radius: 10px;
+    height: 130px;
+    width: 100px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s linear;
+  
+   
+
+}
+
+.c-boxs:hover{
+    border: 7px solid rgb(31, 91, 168) ;
+
+}
+.offers .o-boxs{
+    display: flex;
+    gap: 10px;
+}
+
+.o-boxs .box{
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.76);
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+  
+    box-shadow: 2px 2px 2px gray;
+}
+
+.box a{
+    text-align: right;
+}
+.c-box{
+    display: flex;
+    gap: 10px;
+
+
+}
+.c-box .o-boxs{
+    height: 100px;
+    width: 50px;
+}
+.off {
+    font-size: 20px;
+   font-weight: bold;
+   display: flex;
+   
+   padding: 10px;
+}
+
+a {
+    color: rgb(43, 165, 236);
+    text-decoration: none;
+
+}
+
+
+
+.c-boxs img {
+    height: 60px;
+    width: 60px;
+}
+.colour{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+  
+}
+
+.right{
+    height: 700px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+/* storage */
+.storage{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font:1.2rem "Fira Sans",sans-serif;
+
+}
+.s-box{
+    display: flex;
+    gap: 10px;
+    font:1rem "Fira Sans",sans-serif;
+
+
+}
+.s-box .s-boxs{
+   
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.76);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px gray;
+    width: 200px;
+    height: 40px;
+    transition: all 0.5s linear;
+}
+.s-boxs:hover{
+    border: 2px solid rgb(31, 91, 168) ;
+    box-shadow: 2px 2px 2px gray;
+}
+.s-boxs p{
+    padding-left: 50px;
+    justify-content: start;
+    align-items: center;
+}
+
+/* style name */
+.exchange{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font:1.2rem "Fira Sans",sans-serif;
+
+}
+.slename{
+    display: flex;
+    gap: 10px;
+    font:1rem "Fira Sans",sans-serif;
+    flex-wrap: wrap;
+
+}
+.slename .e-box{
+
+    padding: 10px;
+    border: 2px solid #888;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 40px;
+   
+    transition: all 0.3s ease-in-out;
+}
+.e-box:hover{
+    border: 2px solid rgb(31, 91, 168) ;
+    box-shadow: 2px 2px 2px gray;
+}
+.other-offer{
+    
+    justify-content: center;
+    align-items: center;
+    font:1.2rem "Fira Sans",sans-serif;
+    padding: 5px;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid #888;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+.other-offer:hover{
+    border: 1px solid rgb(31, 91, 168) ;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.tabledata{
+    font:1.2rem "Fira Sans",sans-serif;
+    column-count: 2; 
+      column-gap: 20px;
+      padding:10px ;
+      margin: 10px;
+}
+/* About this item */
+h5{
+    font:1.2rem "Fira Sans",sans-serif;
+    font-weight: bold;
+}
+p{
+    font:1rem "Fira Sans",sans-serif;
+}
+seemore{
+    text-decoration: none;
+    color: skyblue;
+}
