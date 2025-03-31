@@ -9,15 +9,39 @@
         margin: 0;
         padding: 0;
     }
+    html, body{
+      overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+    }
     footer{
-        background-color: rgb(17, 12, 12);
+        background-color:#253446;
+        color: white;
+        display: flex;
+       line-height: 1.9;
+        font-family:  Arial, Helvetica, sans-serif;
     }
     h4{
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        background-color: gray;
+       font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    
+        margin: 0;
 
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .top{
+        background-color: #3d526b;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .main{
         display: flex;
@@ -25,28 +49,72 @@
         align-items: center;
         margin: 20px;
         padding: 10px;
+        
     }
     .box-foot{
        border:1px  black;
-        height: 500px;
-        width: 500px;
+        height: 250px;
+        width: 250px;
+        margin: 20px;
+        padding: 10px;
+    
 
     }
-     li{
+    li{
         list-style-type: none;
+        font-size: 14px;
     }
+    .line-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        margin: 20px;
+        padding: 10px;
+    }
+    .line-footer img{
+        height: 50px;
+        width: 100px;
+    }
+    .line-footer select{
+        margin: 0 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: #3d526b;
+        color: white;
+    }
+    .line{
+        height: 1px;
+        width: 100%;
+        background-color: gray;
+    }
+    .last-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 10px;
+        font-size: 12px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:#101d2c ;
+    }
+   
+
    </style>
 
 </head>
 <body>
     <div class="top">
-        <a href="second.html"><h4>back to top</h4></a>
+        <a href="second.html"><h4>Back to top</h4></a>
     </div>
     <!-- footer cotent -->
      <footer>
+        <div class="container">
         <div class="main">
             <div class="box-foot">
-                <h3>Get to Know Us</h3><br>
+                <h3>Get to Know Us</h3>
      <ul>
         <li>About Amazon</li>
         <li>Careers</li>
@@ -54,8 +122,9 @@
         <li>Amazon Science</li>
      </ul>
             </div>
+            
             <div class="box-foot">   
-                 <h3> Connect with Us</h3><br>
+                 <h3> Connect with Us</h3>
                 <ul>
                    <li>Facebook</li>
                    <li>Twitter</li>
@@ -63,7 +132,7 @@
                  
                 </ul></div>
             <div class="box-foot"> 
-                 <h3>Make Money with Us</h3><br>
+                 <h3>Make Money with Us</h3>
                 <ul>
                    <li>Sell on Amazon</li>
                    <li>Sell under Amazon Accelerator</li>
@@ -75,7 +144,8 @@
                    <li>Advertise Your Products</li>
                    <li>Amazon Pay on Merchants</li>
                 </ul></div>
-            <div class="box-foot"> <h3>Let Us Help You</h3><br>
+            <div class="box-foot">
+                 <h3>Let Us Help You</h3>
                 <ul>
                    <li>Your Account</li>
                    <li>Returns Centre</li>
@@ -84,12 +154,45 @@
                    <li>Amazon App Download</li>
                    <li>Help</li>
                    
-                </ul></div>
-     
- 
+                </ul>
+            </div>
+    
+</div>
+<div class="line"></div>
+<div class="line-footer">
+    <img src="https://www.freeiconspng.com/thumbs/amazon-icon/amazon-black-icon-16.png" alt="">
+    <select name="lang" id="">
+        <option value="English">English</option>
+        <option value="French">French</option>
+        <option value="Spanish">Spanish</option>    
+        <option value="German">German</option>
+        <option value="Italian">Italian</option>
+        <option value="Chinese">Chinese</option>
+        <option value="Japanese">Japanese</option>
+        <option value="Russian">Russian</option>
+
+    </select>
+    <select name="c" id="">
+        <option value="India">India</option>
+       
+    </select>
+</div>
+<div class="last-footer">
    
-    
-    
+ 
+    <p>Condition of use & Sale</p>
+    <p>Privacy Notice</p>
+    <p>Interest-Based Ads</p><br>
+    <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+   
+
+
+</div>
+
+
+
+
+
 </div>
 </footer>
 </body>
